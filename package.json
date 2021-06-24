@@ -7,7 +7,9 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "ant-design-vue": "^2.1.6",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.9"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",

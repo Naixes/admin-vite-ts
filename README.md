@@ -1,3 +1,5 @@
+### 代码规范
+
 1. prettier
 
 2. eslint
@@ -98,4 +100,10 @@ npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
 ```
 
 > editorconfig，插件，跨编辑器配置
+
+### antd
+
+`npm i ant-design-vue@2`
+
+### router
 
