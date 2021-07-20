@@ -5,10 +5,11 @@ module.exports = {
   },
   extends: [
     // 'plugin:vue/essential',
-    // npm i eslint-plugin-vue -D
     'plugin:vue/vue3-recommended',
     'airbnb-base',
     'plugin:prettier/recommended',
+    // npm i eslint-plugin-vue -D 处理 import 路径，位置要放在下面
+    'plugin:import/typescript',
   ],
   parserOptions: {
     ecmaVersion: 12,
@@ -16,5 +17,15 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['vue', '@typescript-eslint'],
-  rules: {},
+  rules: {
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        vue: 'never',
+        ts: 'never',
+      },
+    ],
+  },
 };

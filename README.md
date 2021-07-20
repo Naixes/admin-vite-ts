@@ -105,5 +105,31 @@ npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
 
 `npm i ant-design-vue@2`
 
+按需加载vite不支持
+
 ### router
 
+```
+npm install vue-router@4
+```
+
+> 安装 eslint-plugin-import，处理 import 路径
+>
+> 配置添加：
+>
+> ```js
+>   extends : ['plugin:import/typescript',...],
+>   rules: {
+>     'import/extensions': [
+>       'error',
+>       'ignorePackages',
+>       {
+>         js: 'never',
+>         ts: 'never',
+>         vue: 'never',
+>       },
+>     ],
+>   },
+> ```
+>
+> 重启编辑器
