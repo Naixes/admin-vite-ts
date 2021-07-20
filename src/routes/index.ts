@@ -5,7 +5,16 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     // 懒加载
     component: () => import('../layout.vue'),
-    children: [],
+    children: [
+      {
+        path: '/home',
+        component: () => import('../pages/home.vue'),
+      },
+      {
+        path: '/about',
+        component: () => import('../pages/about.vue'),
+      },
+    ],
   },
 ];
 

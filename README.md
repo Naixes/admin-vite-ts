@@ -133,3 +133,23 @@ npm install vue-router@4
 > ```
 >
 > 重启编辑器
+
+### css
+
+rem，不手写，工具编译，postcss提供或者pxtorem
+
+react，没提供css scope，可以使用cssloader配置cssmodule，配置以module.css结尾的css开启module，全局不需要；或者使用css in js
+
+预渲染，在build时执行的，postbuild中执行预渲染命令通过无头浏览器将代码执行获取到html字符串，生成到build目录下；ssr更适合动态网站
+
+> `prerender-spa-plugin`预渲染原理，在 webpack 构建阶段的最后，在本地启动一个 phantomjs，访问配置了预渲染的路由，再将 phantomjs 中渲染的页面输出到 html 文件中，并建立路由对应的目录。它是一个 webpack 插件用于在单页应用中预渲染静态 html 内容。因此，该插件限定了你的单页应用必须使用 webpack 构建，且它是框架无关的
+>
+> 如果想用预渲染来减少白屏时间，让页面反馈更及时的话，可以预渲染骨架屏。
+>
+> `react-snap`，基于react框架的，两年没维护，基于无头浏览器
+
+cssnano，去除无用css，基于postcss
+
+vite不建议生产使用
+
+react，snowpack

@@ -1,0 +1,323 @@
+[
+  {
+    "qid": 1194,
+    "qtype": "single_choice",
+    "date": "2021-05-13",
+    "biz_type": 3,
+    "parent_qid": 533,
+    "tech_tag": [
+      "JavaScript"
+    ],
+    "corp_tag": [],
+    "single_choice": {
+      "title": "关于 setInterval 下列说法错误的是",
+      "subject": "",
+      "choice": [
+        {
+          "id": 0,
+          "option": "setInterval 和 setTimeout 共享一个 ID 池"
+        },
+        {
+          "id": 1,
+          "option": "setInterval 需要及时清除防止内存泄露"
+        },
+        {
+          "id": 2,
+          "option": "setInterval 可以达到精确的倒计时"
+        }
+      ],
+      "answer": [
+        2
+      ]
+    }
+  },
+  {
+    "qid": 1193,
+    "qtype": "single_choice",
+    "date": "2021-05-13",
+    "biz_type": 3,
+    "parent_qid": 660,
+    "tech_tag": [
+      "JavaScript"
+    ],
+    "corp_tag": [],
+    "single_choice": {
+      "title": "关于 Let、Const 下列说法错误的是",
+      "subject": "",
+      "choice": [
+        {
+          "id": 0,
+          "option": "Let 定义的变量只能在块作用内访问"
+        },
+        {
+          "id": 1,
+          "option": "Let、Const 定义的变量不存在变量提升"
+        },
+        {
+          "id": 2,
+          "option": "Let、Const 定义的变量可以不用赋初始值"
+        }
+      ],
+      "answer": [
+        2
+      ]
+    }
+  },
+  {
+    "qid": 1192,
+    "qtype": "single_choice",
+    "date": "2021-05-13",
+    "biz_type": 3,
+    "parent_qid": 583,
+    "tech_tag": [
+      "JavaScript"
+    ],
+    "corp_tag": [],
+    "single_choice": {
+      "title": "下列不可以实现浅拷贝的是",
+      "subject": "",
+      "choice": [
+        {
+          "id": 0,
+          "option": "Object.assign"
+        },
+        {
+          "id": 1,
+          "option": "Array.prototype.slice"
+        },
+        {
+          "id": 2,
+          "option": "JSON.parse+JSON.stringify"
+        }
+      ],
+      "answer": [
+        2
+      ]
+    }
+  },
+  {
+    "qid": 1191,
+    "qtype": "single_choice",
+    "date": "2021-05-13",
+    "biz_type": 3,
+    "parent_qid": 651,
+    "tech_tag": [
+      "Css"
+    ],
+    "corp_tag": [],
+    "single_choice": {
+      "title": "下列说法错误的是",
+      "subject": "",
+      "choice": [
+        {
+          "id": 0,
+          "option": "clientHeight 包括元素内容的高度，上下 padding,上下 border"
+        },
+        {
+          "id": 1,
+          "option": "clientTop 为只读属性，代表上边框的高度"
+        },
+        {
+          "id": 2,
+          "option": "offsetLeft 它返回当前元素左边框外边缘到最近的已定位父级左边框内边缘的距离"
+        }
+      ],
+      "answer": [
+        0
+      ]
+    }
+  },
+  {
+    "qid": 1190,
+    "qtype": "single_choice",
+    "date": "2021-05-13",
+    "biz_type": 3,
+    "parent_qid": 526,
+    "tech_tag": [
+      "JavaScript"
+    ],
+    "corp_tag": [],
+    "single_choice": {
+      "title": "下列哪种方式不可以判断是否是数组",
+      "subject": "",
+      "choice": [
+        {
+          "id": 0,
+          "option": "[].constructor == Array"
+        },
+        {
+          "id": 1,
+          "option": "[] instanceof Array"
+        },
+        {
+          "id": 2,
+          "option": "typeof []"
+        }
+      ],
+      "answer": [
+        2
+      ]
+    }
+  },
+  {
+    "qid": 1189,
+    "qtype": "single_choice",
+    "date": "2021-05-13",
+    "biz_type": 3,
+    "parent_qid": 714,
+    "tech_tag": [
+      "JavaScript"
+    ],
+    "corp_tag": [],
+    "single_choice": {
+      "title": "下列关于作用域说法序错误的是",
+      "subject": "",
+      "choice": [
+        {
+          "id": 0,
+          "option": "js中有 全局作用域、函数作用域、块作用域"
+        },
+        {
+          "id": 1,
+          "option": "ES6 之前是没有块级作用域的"
+        },
+        {
+          "id": 2,
+          "option": "没有声明的变量，默认会跑到全局作用域中，并且没有方式可以禁止"
+        }
+      ],
+      "answer": [
+        2
+      ]
+    }
+  },
+  {
+    "qid": 1188,
+    "qtype": "single_choice",
+    "date": "2021-05-13",
+    "biz_type": 3,
+    "parent_qid": 20,
+    "tech_tag": [
+      "JavaScript"
+    ],
+    "corp_tag": [],
+    "single_choice": {
+      "title": "关于事件循环下列说法错误的是",
+      "subject": "",
+      "choice": [
+        {
+          "id": 0,
+          "option": "浏览器端事件循环中的异步队列有两种：macro 与 micro"
+        },
+        {
+          "id": 1,
+          "option": "常见的宏任务有 setTimeout、setInterval、UI 渲染"
+        },
+        {
+          "id": 2,
+          "option": "常见的微任务有 new Promise()、requestAnimationFrame"
+        }
+      ],
+      "answer": [
+        2
+      ]
+    }
+  },
+  {
+    "qid": 1187,
+    "qtype": "single_choice",
+    "date": "2021-05-13",
+    "biz_type": 3,
+    "parent_qid": 24,
+    "tech_tag": [
+      "JavaScript"
+    ],
+    "corp_tag": [],
+    "single_choice": {
+      "title": "关于 Promise.all 说法错误的是",
+      "subject": "",
+      "choice": [
+        {
+          "id": 0,
+          "option": "传入的所有参数回调成功才是成功"
+        },
+        {
+          "id": 1,
+          "option": "返回值数组与传入的参数数组顺序不能保持一致"
+        },
+        {
+          "id": 2,
+          "option": "传入的参数数组中只要有一个失败，就触发失败状态"
+        }
+      ],
+      "answer": [
+        1
+      ]
+    }
+  },
+  {
+    "qid": 1186,
+    "qtype": "single_choice",
+    "date": "2021-05-13",
+    "biz_type": 3,
+    "parent_qid": 779,
+    "tech_tag": [
+      "JavaScript"
+    ],
+    "corp_tag": [],
+    "single_choice": {
+      "title": "`console.log(Math.min() < Math.max())` 执行结果是",
+      "subject": "",
+      "choice": [
+        {
+          "id": 0,
+          "option": "true"
+        },
+        {
+          "id": 1,
+          "option": "false"
+        },
+        {
+          "id": 2,
+          "option": "报错"
+        }
+      ],
+      "answer": [
+        1
+      ]
+    }
+  },
+  {
+    "qid": 1185,
+    "qtype": "single_choice",
+    "date": "2021-05-13",
+    "biz_type": 3,
+    "parent_qid": 790,
+    "tech_tag": [
+      "Vue",
+      "React"
+    ],
+    "corp_tag": [],
+    "single_choice": {
+      "title": "关于 SPA 理解正确的是",
+      "subject": "",
+      "choice": [
+        {
+          "id": 0,
+          "option": "用户体验好、快，但是内容的改变需要重新加载整个页面"
+        },
+        {
+          "id": 1,
+          "option": "前后端职责分离，架构清晰，前端进行交互逻辑，后端负责数据处理"
+        },
+        {
+          "id": 2,
+          "option": "前进后退路由管理需要使用浏览器的前进后退功能"
+        }
+      ],
+      "answer": [
+        1
+      ]
+    }
+  }
+]
